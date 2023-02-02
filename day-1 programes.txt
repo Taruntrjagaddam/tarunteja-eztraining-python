@@ -1,0 +1,22 @@
+t=int(input("enter the temperature"))
+if(t>45):
+      print("hottest")
+elif(t>40 and t<45):
+    print("hot")
+elif(t>25 and t<40):
+    print("moderate")
+elif(t>10 and t<25):
+    print("cold")
+else:
+    print("freeze")
+
+
+
+
+
+n=10
+result=n-int(n)
+if result>0:
+    print("the given number is float")
+elif n==float(n):
+    print("the given number is integer")
